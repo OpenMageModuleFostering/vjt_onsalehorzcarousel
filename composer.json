@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/vjt_onsalehorzcarousel",
+    "type": "magento-module",
+    "license": "GNU",
+    "homepage": "",
+    "description": "Show On Sale Products in Horizontal Carousel",
+    "authors": [
+    {
+        "name": "VJ Templates",
+        "email": "vjt@vjtemplates.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

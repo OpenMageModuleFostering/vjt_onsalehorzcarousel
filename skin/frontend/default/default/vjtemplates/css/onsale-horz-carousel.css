@@ -1,0 +1,39 @@
+/*
+#------------------------------------------------------------------------
+  Magento Extension - On Sale Product Horizontal Carousel
+#------------------------------------------------------------------------
+# Copyright (C) 2012 VJ Templates.
+# @license - GNU/GPL
+# Author: VJ Templates
+# Websites: http://www.vjtemplates.com
+#------------------------------------------------------------------------
+*/
+
+/* Horizontal Carousel */
+#vjt-onsale-horz-carousel .product-image { width:100%; height:120px; float:left; text-align:center; margin:10px 0 0 0; }
+#vjt-onsale-horz-carousel .product-name { background:none; margin:5px 0; font-weight:bold; font-size:13px; color:#203548; }
+#vjt-onsale-horz-carousel .product-name a { color:black; }
+#vjt-onsale-horz-carousel .price-box { margin:5px 0; }
+#vjt-onsale-horz-carousel .availability { line-height:21px; }
+#vjt-onsale-horz-carousel .actions { }
+.jcarousel-skin-vjt-onsale-horz .jcarousel-container { position:relative; }
+.jcarousel-skin-vjt-onsale-horz .jcarousel-clip { z-index:2; padding:0; margin:0; overflow:hidden; position:relative; }
+.jcarousel-skin-vjt-onsale-horz .jcarousel-list { z-index:1; overflow:hidden; position:relative; top:0; left:0; margin:0; padding:0; }
+.jcarousel-skin-vjt-onsale-horz .jcarousel-list li, .jcarousel-skin-vjt-onsale-horz .jcarousel-item { float:left; list-style:none; width:205px; padding:0; margin:0 10px 0 0; text-align:center; border:1px solid #ccc; height:250px; }
+.jcarousel-skin-vjt-onsale-horz .jcarousel-list li li { float:left; list-style:none; width:50%; margin:0; padding:0; border:0; border-radius:0; height:auto; }
+.jcarousel-skin-vjt-onsale-horz .jcarousel-next { z-index:3; display:none; }
+.jcarousel-skin-vjt-onsale-horz .jcarousel-prev { z-index:3; display:none;}
+.jcarousel-skin-vjt-onsale-horz { width:100%; background:none; margin:0 0 10px 0; }
+.jcarousel-skin-vjt-onsale-horz .jcarousel-container-horizontal { width:425px; padding:0 25px; }
+.jcarousel-skin-vjt-onsale-horz .jcarousel-clip-horizontal { width:100%; }
+.jcarousel-skin-vjt-onsale-horz .jcarousel-item-horizontal { margin-right:0px; }
+.jcarousel-skin-vjt-onsale-horz .jcarousel-item-placeholder { background:#fff; color:#000; }
+.jcarousel-skin-vjt-onsale-horz .jcarousel-next-horizontal { position:absolute; top:100px; right:0px; width:24px; height:28px; cursor:pointer; background: url(../images/next-horizontal.png) no-repeat 100% 0; }
+.jcarousel-skin-vjt-onsale-horz .jcarousel-next-horizontal:hover { background-position:100% 0; }
+.jcarousel-skin-vjt-onsale-horz .jcarousel-next-horizontal:active { background-position:100% 0; }
+.jcarousel-skin-vjt-onsale-horz .jcarousel-next-disabled-horizontal, .jcarousel-skin-vjt-onsale-horz .jcarousel-next-disabled-horizontal:hover, .jcarousel-skin-vjt-onsale-horz .jcarousel-next-disabled-horizontal:active { cursor:default; background-position:0 0; }
+.jcarousel-skin-vjt-onsale-horz .jcarousel-prev-horizontal { position:absolute; top:100px; left:0px; width:24px; height:28px; cursor:pointer; background:url(../images/prev-horizontal.png) no-repeat 0 0; }
+.jcarousel-skin-vjt-onsale-horz .jcarousel-prev-horizontal:hover {background-position:0 0; }
+.jcarousel-skin-vjt-onsale-horz .jcarousel-prev-horizontal:active { background-position:0 0; }
+.jcarousel-skin-vjt-onsale-horz .jcarousel-prev-disabled-horizontal, .jcarousel-skin-vjt-onsale-horz .jcarousel-prev-disabled-horizontal:hover, .jcarousel-skin-vjt-onsale-horz .jcarousel-prev-disabled-horizontal:active { cursor:default; background-position:0 0; }
+#preview { position:absolute; border:1px solid #ccc; background:#ccc; padding:10px; display:none; font-weight:bold; font-size:16px; color:white; border-radius:5px; z-index:100; }

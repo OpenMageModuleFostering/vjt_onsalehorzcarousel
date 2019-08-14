@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+	<!--
+	<default>
+		<reference name="root">
+			<reference name="head">
+				<action method="addItem"><type>js</type><name>jquery/jquery-1.6.4.min.js</name></action>
+				<action method="addItem"><type>skin_js</type><name>vjtemplates/js/onsale-carousel.js</name></action>
+				<action method="addItem"><type>skin_css</type><name>vjtemplates/css/onsale-horz-carousel.css</name></action>
+			</reference>
+		</reference>
+	</default>
+	-->
+	<cms_index_index>
+		<reference name="head">
+			<action method="addItem"><type>js</type><name>jquery/jquery-1.6.4.min.js</name></action>
+			<action method="addItem"><type>skin_js</type><name>vjtemplates/js/onsale-carousel.js</name></action>
+			<action method="addItem"><type>skin_css</type><name>vjtemplates/css/onsale-horz-carousel.css</name></action>
+		</reference>
+		<reference name="content">
+			<block type="catalog/product_onsalehorz" name="product_onsalehorz" template="vjtemplates/catalog/product/onsale-horz-carousel.phtml" />
+		</reference>
+	</cms_index_index>
+	<cms_index_defaultindex>
+		<reference name="head">
+			<action method="addItem"><type>js</type><name>jquery/jquery-1.6.4.min.js</name></action>
+			<action method="addItem"><type>skin_js</type><name>vjtemplates/js/onsale-carousel.js</name></action>
+			<action method="addItem"><type>skin_css</type><name>vjtemplates/css/onsale-horz-carousel.css</name></action>
+		</reference>
+		<reference name="content">
+			<block type="catalog/product_onsalehorz" name="product_onsalehorz" template="vjtemplates/catalog/product/onsale-horz-carousel.phtml" />
+		</reference>
+	</cms_index_defaultindex>
+	<catalog_category_default>
+		<reference name="head">
+			<action method="addItem"><type>js</type><name>jquery/jquery-1.6.4.min.js</name></action>
+			<action method="addItem"><type>skin_js</type><name>vjtemplates/js/onsale-carousel.js</name></action>
+			<action method="addItem"><type>skin_css</type><name>vjtemplates/css/onsale-horz-carousel.css</name></action>
+		</reference>
+		<reference name="content">
+			<block type="catalog/product_onsalehorz" name="product_onsalehorz" template="vjtemplates/catalog/product/onsale-horz-carousel.phtml" />
+		</reference>
+	</catalog_category_default>
+	<catalog_category_layered>
+		<reference name="head">
+			<action method="addItem"><type>js</type><name>jquery/jquery-1.6.4.min.js</name></action>
+			<action method="addItem"><type>skin_js</type><name>vjtemplates/js/onsale-carousel.js</name></action>
+			<action method="addItem"><type>skin_css</type><name>vjtemplates/css/onsale-horz-carousel.css</name></action>
+		</reference>
+		<reference name="content">
+			<block type="catalog/product_onsalehorz" name="product_onsalehorz" template="vjtemplates/catalog/product/onsale-horz-carousel.phtml" />
+		</reference>
+	</catalog_category_layered>
+</layout> 
