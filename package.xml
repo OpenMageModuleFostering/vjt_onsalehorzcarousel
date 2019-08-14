@@ -1,18 +1,18 @@
 <?xml version="1.0"?>
 <package>
     <name>vjt_onsalehorzcarousel</name>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <stability>stable</stability>
-    <license>GNU</license>
+    <license>GPL</license>
     <channel>community</channel>
     <extends/>
     <summary>Show On Sale Products in Horizontal Carousel</summary>
     <description>Show On Sale or Special Price Products in Horizontal Carousel Style</description>
     <notes>Initial release</notes>
     <authors><author><name>VJ Templates</name><user>vjtemplates</user><email>vjt@vjtemplates.com</email></author></authors>
-    <date>2012-09-03</date>
-    <time>00:07:21</time>
-    <contents><target name="magecommunity"><dir name="VJTemplates"><dir name="OnSaleHorzCarousel"><dir name="Block"><dir name="Category"><file name="View.php" hash="25fa66a6deed29ea7ec4a65822f12b81"/></dir><dir name="Product"><file name="OnSale.php" hash="068b767dc27c37cc4e7400ac4e1fd61b"/></dir></dir><dir name="etc"><file name="config.xml" hash="be4431f0c35038a4ab1b2e4e0a93a3de"/></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="default"><dir name="default"><dir name="layout"><dir name="vjtemplates"><file name="onsalehorzcarousel.xml" hash="798961bfc36f34271b68d1785cf5d756"/></dir></dir><dir name="template"><dir name="vjtemplates"><dir name="catalog"><dir name="product"><file name="onsale-horz-carousel.phtml" hash="4a16aee4e184da2f05fb485c07663408"/></dir></dir></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="VJTemplates_OnSaleHorzCarousel.xml" hash="af9b51b84f93f1d523e1ad73d58b3761"/></dir></target><target name="mage"><dir name="js"><dir name="jquery"><file name="jquery-1.6.4.min.js" hash="0bd074f6e49da04536b3ce289e3f7448"/></dir></dir></target><target name="mageskin"><dir name="frontend"><dir name="default"><dir name="default"><dir name="vjtemplates"><dir name="css"><file name="onsale-horz-carousel.css" hash="42fa8ce56fe62e2bbf1050cf23d8c5ce"/></dir><dir name="images"><file name="next-horizontal.png" hash="fa5bfea6029803d4382e257f3e407269"/><file name="prev-horizontal.png" hash="e9e56e2851122f2c3322e3f36841a66b"/></dir><dir name="js"><file name="onsale-carousel.js" hash="678439bb3993ebf66629e23b59d8c811"/></dir></dir></dir></dir></dir></target></contents>
+    <date>2012-09-14</date>
+    <time>17:20:14</time>
+    <contents><target name="magecommunity"><dir name="VJTemplates"><dir name="OnSaleHorzCarousel"><dir name="Block"><dir name="Category"><file name="View.php" hash="25fa66a6deed29ea7ec4a65822f12b81"/></dir><dir name="Product"><file name="OnSale.php" hash="d70392ff4341f55e2595efd4ee65f14b"/></dir></dir><dir name="etc"><file name="config.xml" hash="8817aabcc060957de1144620c336724f"/></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><dir name="vjtemplates"><file name="onsalehorzcarousel.xml" hash="798961bfc36f34271b68d1785cf5d756"/></dir></dir><dir name="template"><dir name="vjtemplates"><dir name="catalog"><dir name="product"><file name="onsale-horz-carousel.phtml" hash="4a16aee4e184da2f05fb485c07663408"/></dir></dir></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="VJTemplates_OnSaleHorzCarousel.xml" hash="0aaa9f76b77b4b72af280d598eb21955"/></dir></target><target name="mage"><dir name="js"><dir name="jquery"><file name="jquery-1.6.4.min.js" hash="0bd074f6e49da04536b3ce289e3f7448"/></dir></dir></target><target name="mageskin"><dir name="frontend"><dir name="base"><dir name="default"><dir name="vjtemplates"><dir name="css"><file name="onsale-horz-carousel.css" hash="42fa8ce56fe62e2bbf1050cf23d8c5ce"/></dir><dir name="images"><file name="next-horizontal.png" hash="fa5bfea6029803d4382e257f3e407269"/><file name="prev-horizontal.png" hash="e9e56e2851122f2c3322e3f36841a66b"/></dir><dir name="js"><file name="onsale-carousel.js" hash="678439bb3993ebf66629e23b59d8c811"/></dir></dir></dir></dir></dir></target></contents>
     <compatible/>
     <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php></required></dependencies>
 </package>

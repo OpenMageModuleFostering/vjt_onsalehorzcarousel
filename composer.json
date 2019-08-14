@@ -1,7 +1,7 @@
 {
     "name": "OpenMageModuleFostering/vjt_onsalehorzcarousel",
     "type": "magento-module",
-    "license": "GNU",
+    "license": "GPL",
     "homepage": "",
     "description": "Show On Sale Products in Horizontal Carousel",
     "authors": [

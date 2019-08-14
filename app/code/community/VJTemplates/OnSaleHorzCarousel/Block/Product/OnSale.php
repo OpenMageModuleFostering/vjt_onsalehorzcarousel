@@ -14,8 +14,6 @@ class VJTemplates_OnSaleHorzCarousel_Block_Product_OnSale extends Mage_Catalog_B
     public function getOnSaleProduct(){
             
         $product = Mage::getModel('catalog/product');
-        if($this->getCategoryId())
-            $category = Mage::getModel('catalog/category')->load($this->getCategoryId());
         
         $collection = $product->getCollection()
 			->addAttributeToSelect(Mage::getSingleton('catalog/config')->getProductAttributes())
@@ -32,9 +30,21 @@ class VJTemplates_OnSaleHorzCarousel_Block_Product_OnSale extends Mage_Catalog_B
 				1 => array("is" => new Zend_Db_Expr("null")))
 				), "left");
 
-        if(isset($category)) {
-            $collection->addCategoryFilter($category);
-        }
+        if($this->getCategoryId()) {
+		$CategoryIds = explode(',',$this->getCategoryId());
+			foreach($CategoryIds as $CategoryId) {
+            	if ($CategoryId->hasChildren()) {
+                $AllChildren = Mage::getModel('catalog/category')->load($CategoryId)->getAllChildren($asArray = true);
+                	foreach($AllChildren as $Child) {
+                    $category = Mage::getModel('catalog/category')->load($Child);
+                    $collection->addCategoryFilter($category);
+                    }
+                } else {
+				$category = Mage::getModel('catalog/category')->load($CategoryId);
+				$collection->addCategoryFilter($category);
+                }
+			}
+		}
     
         $collection ->addStoreFilter();        
 		$current_categoryId = Mage::getModel('catalog/layer')->getCurrentCategory()->getId(); 
