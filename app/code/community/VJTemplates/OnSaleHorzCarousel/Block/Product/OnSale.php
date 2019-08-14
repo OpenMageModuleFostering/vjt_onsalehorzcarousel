@@ -25,7 +25,7 @@ class VJTemplates_OnSaleHorzCarousel_Block_Product_OnSale extends Mage_Catalog_B
 			->addAttributeToSelect('price')
 			->addAttributeToSelect('small_image')
 			->addAttributeToFilter('status', Mage_Catalog_Model_Product_Status::STATUS_ENABLED)
-			->addAttributeToFilter('visibility', Mage_Catalog_Model_Product_Visibility::VISIBILITY_BOTH);
+			->addAttributeToFilter('visibility', Mage_Catalog_Model_Product_Visibility::VISIBILITY_BOTH)
 			->addAttributeToFilter("special_from_date", array("date" => true, "to" => date("m/d/y")))
 			->addAttributeToFilter("special_to_date", array("or"=> array(
 				0 => array("date" => true, "from" => mktime(0, 0, 0, date("m"), date("d")+1, date("y"))),

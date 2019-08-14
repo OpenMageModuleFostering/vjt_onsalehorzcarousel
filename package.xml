@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
     <name>vjt_onsalehorzcarousel</name>
-    <version>1.0.2</version>
+    <version>1.0.3</version>
     <stability>stable</stability>
     <license>GPL</license>
     <channel>community</channel>
@@ -11,8 +11,8 @@
     <notes>Initial release</notes>
     <authors><author><name>VJ Templates</name><user>vjtemplates</user><email>vjt@vjtemplates.com</email></author></authors>
     <date>2012-09-26</date>
-    <time>15:52:58</time>
-    <contents><target name="magecommunity"><dir name="VJTemplates"><dir name="OnSaleHorzCarousel"><dir name="Block"><dir name="Category"><file name="View.php" hash="25fa66a6deed29ea7ec4a65822f12b81"/></dir><dir name="Product"><file name="OnSale.php" hash="4cda9649d0edc17c02c010c4997dbbef"/></dir></dir><dir name="etc"><file name="config.xml" hash="6844fa9532499fbd9fb38e6982d0db15"/></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><dir name="vjtemplates"><file name="onsalehorzcarousel.xml" hash="798961bfc36f34271b68d1785cf5d756"/></dir></dir><dir name="template"><dir name="vjtemplates"><dir name="catalog"><dir name="product"><file name="onsale-horz-carousel.phtml" hash="4a16aee4e184da2f05fb485c07663408"/></dir></dir></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="VJTemplates_OnSaleHorzCarousel.xml" hash="0aaa9f76b77b4b72af280d598eb21955"/></dir></target><target name="mage"><dir name="js"><dir name="jquery"><file name="jquery-1.6.4.min.js" hash="0bd074f6e49da04536b3ce289e3f7448"/></dir></dir></target><target name="mageskin"><dir name="frontend"><dir name="base"><dir name="default"><dir name="vjtemplates"><dir name="css"><file name="onsale-horz-carousel.css" hash="42fa8ce56fe62e2bbf1050cf23d8c5ce"/></dir><dir name="images"><file name="next-horizontal.png" hash="fa5bfea6029803d4382e257f3e407269"/><file name="prev-horizontal.png" hash="e9e56e2851122f2c3322e3f36841a66b"/></dir><dir name="js"><file name="onsale-carousel.js" hash="678439bb3993ebf66629e23b59d8c811"/></dir></dir></dir></dir></dir></target></contents>
+    <time>16:11:42</time>
+    <contents><target name="magecommunity"><dir name="VJTemplates"><dir name="OnSaleHorzCarousel"><dir name="Block"><dir name="Category"><file name="View.php" hash="25fa66a6deed29ea7ec4a65822f12b81"/></dir><dir name="Product"><file name="OnSale.php" hash="b2517d09e4b9076675efca04163d2a41"/></dir></dir><dir name="etc"><file name="config.xml" hash="711b3a9124f01aaa4c6e111f775fbc99"/></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><dir name="vjtemplates"><file name="onsalehorzcarousel.xml" hash="798961bfc36f34271b68d1785cf5d756"/></dir></dir><dir name="template"><dir name="vjtemplates"><dir name="catalog"><dir name="product"><file name="onsale-horz-carousel.phtml" hash="4a16aee4e184da2f05fb485c07663408"/></dir></dir></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="VJTemplates_OnSaleHorzCarousel.xml" hash="0aaa9f76b77b4b72af280d598eb21955"/></dir></target><target name="mage"><dir name="js"><dir name="jquery"><file name="jquery-1.6.4.min.js" hash="0bd074f6e49da04536b3ce289e3f7448"/></dir></dir></target><target name="mageskin"><dir name="frontend"><dir name="base"><dir name="default"><dir name="vjtemplates"><dir name="css"><file name="onsale-horz-carousel.css" hash="42fa8ce56fe62e2bbf1050cf23d8c5ce"/></dir><dir name="images"><file name="next-horizontal.png" hash="fa5bfea6029803d4382e257f3e407269"/><file name="prev-horizontal.png" hash="e9e56e2851122f2c3322e3f36841a66b"/></dir><dir name="js"><file name="onsale-carousel.js" hash="678439bb3993ebf66629e23b59d8c811"/></dir></dir></dir></dir></dir></target></contents>
     <compatible/>
     <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php></required></dependencies>
 </package>
